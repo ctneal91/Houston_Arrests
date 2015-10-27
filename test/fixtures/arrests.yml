@@ -1,0 +1,45 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  booking_number: 1
+  name: MyString
+  sex: MyString
+  race: MyString
+  dob: 2015-10-27
+  arrest_date: MyString
+  booking_date: MyString
+  address_number: MyString
+  address_prefix: MyString
+  address_street: MyString
+  address_suffix: MyString
+  address_ali: MyString
+  address_city: MyString
+  address_state: MyString
+  address_zip: 1
+  charge_code: 1
+  charge_wording: MyString
+  charge_level: MyString
+  case_number: MyString
+  disposition: MyString
+
+two:
+  booking_number: 1
+  name: MyString
+  sex: MyString
+  race: MyString
+  dob: 2015-10-27
+  arrest_date: MyString
+  booking_date: MyString
+  address_number: MyString
+  address_prefix: MyString
+  address_street: MyString
+  address_suffix: MyString
+  address_ali: MyString
+  address_city: MyString
+  address_state: MyString
+  address_zip: 1
+  charge_code: 1
+  charge_wording: MyString
+  charge_level: MyString
+  case_number: MyString
+  disposition: MyString
