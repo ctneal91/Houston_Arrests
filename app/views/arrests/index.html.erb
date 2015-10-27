@@ -1,2 +1,28 @@
-<h1>Arrests#index</h1>
-<p>Find me in app/views/arrests/index.html.erb</p>
+<h1> HCPD Arrests </h1>
+
+<table class="table">
+  <thead>
+    <tr>
+      <th>Booking Number</th>
+      <th>Race</th>
+      <th>Sex</th>
+      <th>Date of Birth</th>
+      <th>Arrest Date </th>
+      <th>Charge Wording</th>
+      <th>Charge Level</th>
+    </tr>
+  </thead>
+  <tbody>
+    <% @arrests.each do |arrest| %>
+      <tr>
+        <td><%= arrest.booking_number %></td>
+        <td><%= arrest.race %></td>
+        <td><%= arrest.sex %></td>
+        <td><%= arrest.dob %></td>
+        <td><%= arrest.arrest_date %></td>
+        <td><%= arrest.charge_wording %></td>
+        <td><%= arrest.charge_level %></td>
+      </tr>
+    <% end %>
+  </tbody>
+</table>

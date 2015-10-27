@@ -1,5 +1,5 @@
 Rails.application.routes.draw do
-  get 'arrests/index'
+  root 'arrests#index'
 
   get 'arrests/show'
 
