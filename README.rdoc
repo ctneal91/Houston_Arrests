@@ -1,5 +1,13 @@
 == README
 
+The geocoding JavaScript files can be run in with the following command:
+'node getGeotags'
+
+The .json file was created with the csvToJSON.js file
+
+All the node modules I needed for JavaScript have been included in the app/assets/javascripts/node_modules folder
+I think they can be included some other way that might be more efficient.
+
 This README would normally document whatever steps are necessary to get the
 application up and running.
 
